@@ -1,0 +1,83 @@
+Una cosa a tener en cuenta es tomar de referencia la app de SPA de heroes que hice en el curso de fernando de React. ✅
+
+En la carpeta src crear una carpeta que almacene toda la información de Jojos llamada Jojos. ✅
+
+Dentro de esa carpeta crear subcarpetas llamadas: ✅
+
+Components <- Aqui crearemos 2 archivos llamados JojosList.jsx y JojosCard.jsx el JojosList.jsx sera un componente que mostrara todos los personajes de Jojos y el JojosCard.jsx sera un componente que mostrara la data un personaje en particular. ✅
+data <- Sacar toda la información de los Personajes y colocarla como objetos literales dentro de constantes el archivo se llamara JojosData.js.✅
+1 cosa a tener en cuenta es que debo colocar como objetos a todos los personajes de jojos, para que se pueda mostrar esta data. Hacer lo mismo con los Stands. ✅
+
+helpers <- Crear 3 archivos para obtener los Personajes por Id. Por nombre y por Publisher. ✅
+pages <- Iran todas las paginas de todas las temporadas de Jojos incluyendo una de busqueda. ✅
+routes <- Ira un archivo llamado JojosRoutes.jsx ✅
+
+y crear un archivo de barril index.js dentro de la carpeta de Jojos. ✅
+Volviendo al src crear una carpeta llamada ui dentro crear components y agregar el navbar.jsx y crear un archivo de barril index.js dentro de la carpeta ui. ✅
+Agregar logo de Jojos en la barra de navegación  ✅
+En el home mostrar todas las temporadas de Jojos que va a ser un redireccionable a cada temporada ✅
+
+Tener en cuenta que en el home solo mostrar Las imagenes Linkeables hacia cada una de las paginas que se muestran en la carpeta page. Y cuando haga Click hacia una pagina que solo muestre la data de esa temporada. ✅
+
+En el Jojodata si un personaje aparece más de una vez, borrar ese Chapter extra y copiar el personaje y replicarlo en la temporada donde aparece nuevamente. ✅
+
+Cada temporada mostrara Ya sea los personajes o stands, si en dado caso en una temporada no hay stands, entonce solo mostrara los personajes ✅
+
+mostrar en la parte principal cada vez que se carga la pagina la imagen de la temporadas ✅
+
+al hacer click en un personaje o stand que muestre toda su información. ✅
+
+Crear una pagina llamada StandPage.jsx que va a ser la replica de JojoPage solo que va a almacenar los stands. ✅
+
+si hay stands en esa temporada podras seleccionar entre ver personajes o stands. ✅
+
+Colocar el nombre de cada personaje en el standUser que haga referencia el nombre del personaje en el stand. ✅
+
+Cuando seleccione ya sea el stand o character, la idea es que dependiendo de la temporada me muestre los personajes y stands referentes a esa temporada. ✅
+
+Un personaje o Stand solo mostrara su nombre y su stand y la imagen en el centro. ✅
+
+Cambiar los ID de los stands. empezar con el id 193. ✅
+
+En el JojoStandData si un stand aparece más de una vez, borrar ese Chapter extra y copiar el stand y replicarlo en la temporada donde aparece nuevamente. ✅
+ 
+Además hay algunos personajes que no se muestran nuevamente en JojoData verificar eso. ✅
+
+volver a descargar las imagenes de cada temporada y redimenzionarlas con bootstrap o css. ✅
+
+Descargar todas las iamgenes de jojos desde la wikiJojo y selecdcionar las imagenes del anime ✅
+
+Renderizar las imagenes y pasarlas a png en https://imgto.xyz/ ✅
+
+FALTA EL ID 54 EN JOJOSDATA HACER EL CAMBIO COMPLETO DE TODOS LOS ID & SE REPITE Speedwagon en crusaders pero el ya estaba muerto sacar de alli.  Y tambien eliminar a enya the hag de Vento aureo. y silverchariot tambien eliminar de JojoData. ✅
+
+Dividir a Squano y Tiziano en personajes distintos. Una solución para Enya the Hag es moverla hacia abajo y renombrarla más con uno de los Jojostand duplicados. ✅
+
+Hacer una paginación si hay más de 10-15 personajes o stands en una temporada. ✅
+
+hacer el texto responsive. ✅
+
+Colocar mejores colores ✅
+
+Hacer las imagenes responsive. ✅
+
+Centrar los botones de la paginación. ✅
+
+Hacer responsive de las cajas por medidas de grid 767px y en la medida más pequeña hacer espacio entre los laterales. ✅
+
+Mejorar el texto. ✅
+
+Agregar un footer. ✅
+
+En el caso de Echoes como tiene 3 fases, hare un recorte de cada una de las imagenes y la colocare en una sola, aun no lo he hecho. Y tener en cuenta si hay más Stands con más de una fase en la misma temporada aplicar lo mismo.
+
+Hacer responsive el JojoPage, hacer que el texto y todo sea del mismo tamaño de la imagen en todos lados y también el tamaño de la caja. Además arreglar el footer para que se muestre en la parte inferior de la página.
+
+Hacer navbar con el video que esta en el canal del bot.
+Otra cosa a tener en cuenta es que si coloco un ID diferente al de la ruta claramente no se cargara una imagen o el stand o la información, pero este debe redireccionar a la pagina de JojoApp y que cargue el hpta logo. o creaer una una Pagina 404 que diga URL no exists y colocar un boton que lleve al JojoApp(Ver en el curso de fernando de React)
+
+Colocar Active Link en Los navLinks del HomePage.
+
+Cargar las imagenes desde un backend.
+
+En el directorio raiz crear una carpeta llamada assets que tendra todas las fotos de los personajes de Jojos ya sean personajes & Stands. Además buscar una solución para no cargar tantas imagenes, ya que eso va a relentizar mucho el navegador.
