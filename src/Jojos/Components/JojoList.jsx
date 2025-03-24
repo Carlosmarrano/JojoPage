@@ -30,7 +30,7 @@ export const JojoList = ({ chapter }) => {
                 <button className="button" onClick={nextPage}>Siguiente</button>
             </div>
                 
-            <div className="container-card row rows-cols-1 row-cols-md-4 g-4 mt-4 d-flex">
+            <div className="container-card row rows-cols-1 row-cols-md-4 g-4 mt-4 d-flex ">
                 {
                     JojosFiltered().map( jojo => (
                         <JojoCard

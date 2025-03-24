@@ -69,15 +69,20 @@ Mejorar el texto. ✅
 
 Agregar un footer. ✅
 
+En el directorio raiz crear una carpeta llamada assets que tendra todas las fotos de los personajes de Jojos ya sean personajes & Stands. Además buscar una solución para no cargar tantas imagenes, ya que eso va a relentizar mucho el navegador. ✅
+
+Cargar las imagenes desde un backend ya sea cloudinary o cualquier otro.
+
 En el caso de Echoes como tiene 3 fases, hare un recorte de cada una de las imagenes y la colocare en una sola, aun no lo he hecho. Y tener en cuenta si hay más Stands con más de una fase en la misma temporada aplicar lo mismo.
 
-Hacer responsive el JojoPage, hacer que el texto y todo sea del mismo tamaño de la imagen en todos lados y también el tamaño de la caja. Además arreglar el footer para que se muestre en la parte inferior de la página.
+Hacer responsive el JojoPage, hacer que el texto y todo sea del mismo tamaño de la imagen en todos lados y también el tamaño de la caja. Además arreglar el footer para que se muestre en la parte inferior de la página. 
 
-Hacer navbar con el video que esta en el canal del bot.
 Otra cosa a tener en cuenta es que si coloco un ID diferente al de la ruta claramente no se cargara una imagen o el stand o la información, pero este debe redireccionar a la pagina de JojoApp y que cargue el hpta logo. o creaer una una Pagina 404 que diga URL no exists y colocar un boton que lleve al JojoApp(Ver en el curso de fernando de React)
+
+Redimenzioanr las imagenes y las cajas, para que se vea mejor y sea responsive y que mantengan todas las imagenes una altura y ancho.
+
+Em el Home que en la medida pequeña las imagenes no sean tan grandes 
 
 Colocar Active Link en Los navLinks del HomePage.
 
-Cargar las imagenes desde un backend.
-
-En el directorio raiz crear una carpeta llamada assets que tendra todas las fotos de los personajes de Jojos ya sean personajes & Stands. Además buscar una solución para no cargar tantas imagenes, ya que eso va a relentizar mucho el navegador.
+Y hacer que se mantenga la imagen del header
