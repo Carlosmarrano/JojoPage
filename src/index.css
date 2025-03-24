@@ -114,3 +114,24 @@ footer{
     }
     
 }
+
+.container-search  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-input {
+    padding: 10px 20px;
+    background-color: #ececec;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #fff;
+    margin-bottom: 10px;
+}
+
+.search-input:focus {
+    outline-width: 0;
+}
+
