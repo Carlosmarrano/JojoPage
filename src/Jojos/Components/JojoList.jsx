@@ -37,14 +37,14 @@ export const JojoList = ({ chapter }) => {
 
   return (
     <>
-      <div className="container-search">
+      <div className="container-search mb-4">
         <input
           type="search"
           className="search-input"
           onChange={handleOnChangeText}
         />
       </div>
-      <div className="container-button">
+      <div className="container-button mb-4">
         <button className="button" onClick={prevPage}>
           Anterior
         </button>
@@ -58,7 +58,7 @@ export const JojoList = ({ chapter }) => {
           <JojoCard key={jojo.id} {...jojo} />
         ))}
       </div>
-      <div>Page: {currentPage}</div>
+
     </>
   );
 };

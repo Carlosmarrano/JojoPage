@@ -1,29 +1,34 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import { JojoLogo } from "../../Jojos/data/JojosData";
 
+const NavbarImage = JojoLogo.find((logo) => logo.id === "JojoLogo"); 
 
 export const Navbar = () => {
-    return(
+    return (
         <>
-        <nav className="navbar navbar-expand-lg navbar-dark p-2">
-            <img src="assets/Jojo's-Logo.png" alt="Jojos" className="navbar-logo" id="mi-logo" />
+            <nav className="navbar navbar-expand-lg navbar-dark p-2">
+                <NavLink to="/homePage">
+                    <img src={NavbarImage.image} alt={NavbarImage.name} className="navbar-logo" id="mi-logo" />
+                </NavLink>
 
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-            <div className="navbar-collapse">
-                <div className="navbar-nav p-2 p-md-4">
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="HomePage">Home</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="PhantomBlood">Phantom Blood</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="BattleTendency">Battle Tendency</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="StardustCrusaders">Stardust Crusaders</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="DiamondIsUnbreakable">Diamond is Unbreakable</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="GoldenWind">Golden Wind</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="StoneOcean">Stone Ocean</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="SteelBallRun">Stell Ball Run</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="JoJolion">Jojolion</NavLink>
-                    <NavLink className={ ({ isActive }) => `nav-item nav-link ${ isActive ? 'active' : ''}` } to="/name">Search</NavLink>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <div className="navbar-nav p-2 p-md-4 d-flex justify-content-center text-center text-lg-start w-100">
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="PhantomBlood">Phantom Blood</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="BattleTendency">Battle Tendency</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="StardustCrusaders">Stardust Crusaders</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="DiamondIsUnbreakable">Diamond is Unbreakable</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="GoldenWind">Golden Wind</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="StoneOcean">Stone Ocean</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="SteelBallRun">Steel Ball Run</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="JoJolion">Jojolion</NavLink>
+                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/name">Search</NavLink>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
+            </nav>
         </>
-    )
-}
+    );
+};
