@@ -2,7 +2,7 @@ export const JojoLogo = [
     {
         id: "JojoLogo",
         name: "Jojo Logo",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1744241663/vr5dmzuf3jtmk5rvm3hm.png"
+        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745015594/gfdyljwmdp65pgelwwxs.png"
     }
 ]
 
