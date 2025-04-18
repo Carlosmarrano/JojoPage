@@ -10,20 +10,25 @@ export const JojoList = ({ chapter }) => {
   const [value] = useDebounce(search, 300);
 
   const JojosFiltered = () => {
+
+    if( search.length === 0 ) 
+      return Jojos.slice(currentPage, currentPage + 5);
+
+  const filtered = Jojos.filter( jojo => jojo.name.includes( search ) );
+
     return Jojos.filter((jojo) => {
       if (search.length > 0) {
         return jojo.name
           .trim()
-          .toLowerCase()
-          .includes(value.trim().toLowerCase());
+          .includes(value.trim());
       }
 
-      return jojo;
+      return filtered;
     }).slice(currentPage, currentPage + 5);
   };
 
   const nextPage = () => {
-    if (Jojos.length > currentPage + 5) setCurrentPage(currentPage + 5);
+      if(Jojos.filter(jojo => jojo.name.includes(search)).length > currentPage + 5) setCurrentPage(currentPage + 5);
   };
 
   const prevPage = () => {
@@ -33,6 +38,7 @@ export const JojoList = ({ chapter }) => {
   const handleOnChangeText = (e) => {
     const { value } = e.target;
     setSearch(value);
+    setCurrentPage(0);
   };
 
   return (
