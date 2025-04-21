@@ -25,7 +25,6 @@ export const Navbar = () => {
                         <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="StoneOcean">Stone Ocean</NavLink>
                         <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="SteelBallRun">Steel Ball Run</NavLink>
                         <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="JoJolion">Jojolion</NavLink>
-                        <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/name">Search</NavLink>
                     </div>
                 </div>
             </nav>

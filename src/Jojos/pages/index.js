@@ -3,7 +3,6 @@ export * from './DiamondIsUnbreakablePage';
 export * from './GoldenWindPage';
 export * from './JojolionPage';
 export * from './PhantomBloodPage';
-export * from './SearchPage';
 export * from './StardustCrusadersPage';
 export * from './SteelBallRunPage';
 export * from './StoneOceanPage';
