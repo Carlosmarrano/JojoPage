@@ -2,9 +2,14 @@ import { useMemo, useState } from "react";
 import { JojoCard } from "./JojoCard";
 import { JojoByChapter } from "../helpers/getJojoByChapter";
 import { useDebounce } from "use-debounce";
+import { StandByChapter } from "../helpers/getStandByChapter";
 
 export const JojoList = ({ chapter }) => {
-  const Jojos = useMemo(() => JojoByChapter(chapter), [chapter]);
+  const Jojos = useMemo(() => {
+    const JojoStand = [...JojoByChapter(chapter), ...StandByChapter(chapter)];
+    return JojoStand;
+  }, [chapter])
+  
   const [currentPage, setCurrentPage] = useState(0);
   const [search, setSearch] = useState("");
   const [value] = useDebounce(search, 300);
