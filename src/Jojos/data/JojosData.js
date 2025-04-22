@@ -1,3 +1,12 @@
+import PhantomBlood from '../../../assets/PB.avif'
+import BattleTendency from '../../../assets/BT.avif'
+import StardustCrusaders from '../../../assets/SC.avif'
+import DiamondIsUnbreakable from '../../../assets/DIU.avif'
+import GoldenWind from '../../../assets/GW.avif'
+import StoneOcean from '../../../assets/SO.avif'
+import SteelBallRun from '../../../assets/SBR.avif'
+import Jojolion from '../../../assets/JJ.avif'
+
 export const JojoLogo = [
     {
         id: "JojoLogo",
@@ -10,42 +19,42 @@ export const JojoArcData = [
     {
         id: "PhantomBlood",
         name: "Phantom Blood",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/xddqajjrmlttwpql35ve.avif", 
+        image: PhantomBlood, 
       },
       {
         id: "BattleTendency",
         name: "Battle Tendency",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005940/ene7yo6gpohadxoo57n7.avif", 
+        image: BattleTendency, 
       },
       {
         id: "StardustCrusaders",
         name: "Stardust Crusaders",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/bbdspdbxch3dc0ik4mtb.avif", 
+        image: StardustCrusaders, 
       },
       {
         id: "DiamondIsUnbreakable",
         name: "Diamond is Unbreakable",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/fuyvvhfpk0nhnlktylfj.avif", 
+        image: DiamondIsUnbreakable
       },
       {
         id: "GoldenWind",
         name: "Golden Wind",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/wzulteuwkwfhdxdbihpw.avif", 
+        image: GoldenWind
       },
       {
         id: "StoneOcean",
         name: "Stone Ocean",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/nrss3nso7fzcky9xxmxm.avif", 
+        image: StoneOcean
       },
       {
         id: "SteelBallRun",
         name: "Steel Ball Run",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/ixde1b1fugwxthbnayea.avif", 
+        image: SteelBallRun
       },
       {
         id: "JoJolion",
         name: "JoJolion",
-        image: "https://res.cloudinary.com/dyuomza0i/image/upload/v1745005941/rn9h2qfv567afuy22qqw.avif", 
+        image: Jojolion
       }
 ]
 
