@@ -15,6 +15,8 @@ export const JojoHome = () => {
                         src={arc.image} 
                         alt={arc.name}
                         className="img-fluid"
+                        loading="lazy"
+                        rel="preload"
                     />
                 </NavLink>
             ))}

@@ -31,7 +31,7 @@ export const JojoCard = ({
             <h5 className="card-title text-center">{name}</h5>
 
             <div className="img-container" style={{position: "relative"}}>
-                <img src={image} className="card-img" style={{  filter: isLoaded ? "none" : "blur(10px)", transition: "filter 0.3s ease-in-out" }} onLoad={handleImageLoad}/>
+                <img alt={image} src={image} className="card-img" style={{  filter: isLoaded ? "none" : "blur(10px)", transition: "filter 0.3s ease-in-out" }} onLoad={handleImageLoad}/>
             </div>
 
             <p className="card-text text-center">{chapter}</p>

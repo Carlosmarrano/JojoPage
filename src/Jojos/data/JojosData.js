@@ -1,11 +1,11 @@
-import PhantomBlood from '../../../assets/PB.avif'
-import BattleTendency from '../../../assets/BT.avif'
-import StardustCrusaders from '../../../assets/SC.avif'
-import DiamondIsUnbreakable from '../../../assets/DIU.avif'
-import GoldenWind from '../../../assets/GW.avif'
-import StoneOcean from '../../../assets/SO.avif'
-import SteelBallRun from '../../../assets/SBR.avif'
-import Jojolion from '../../../assets/JJ.avif'
+import PhantomBlood from '../../../public/images/PB.avif'
+import BattleTendency from '../../../public/images/BT.avif'
+import StardustCrusaders from '../../../public/images/SC.avif'
+import DiamondIsUnbreakable from '../../../public/images/DIU.avif'
+import GoldenWind from '../../../public/images/GW.avif'
+import StoneOcean from '../../../public/images/SO.avif'
+import SteelBallRun from '../../../public/images/SBR.avif'
+import Jojolion from '../../../public/images/JJ.avif'
 
 export const JojoLogo = [
     {
