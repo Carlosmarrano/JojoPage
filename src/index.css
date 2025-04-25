@@ -210,6 +210,24 @@ footer{
 }
 /*MEDIA QUERIES*/
 
+@media (hover: none) {
+    .button:hover{
+        background-color: #800033;
+        border: 1px solid #800033;
+        color: #e4e4ce;
+        padding: 8px;
+        margin: 7px;
+        border-radius: 7px;
+    }
+    .btn:hover{
+        background-color: #e4e4ce !important;
+        color: #49127a !important;
+        padding: 10px;
+        margin: 7px;
+        border-radius: 8px;
+    }
+}
+
 @media (min-width: 1200px) {
 
     .card {
